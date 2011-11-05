@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scriptTimer</key>
+	<integer>10</integer>
+	<key>toolTip</key>
+	<string>StatusItem</string>
+	<key>debugEnabled</key>
+	<true/>
+	<key>webLinks</key>
+	<array>
+		<dict>
+			<key>subMenuTitle</key>
+			<string>Mactech</string>
+			<key>getURL</key>
+			<string>http://www.mactech.com</string>
+		</dict>
+		<dict>
+			<key>subMenuTitle</key>
+			<string>Zack Smith</string>
+			<key>getURL</key>
+			<string>http://www.twitter.com/acidprime</string>
+		</dict>
+		<dict>
+			<key>subMenuTitle</key>
+			<string>318</string>
+			<key>getURL</key>
+			<string>http://www.318.com</string>
+		</dict>
+	</array>
+	<key>scriptPlugins</key>
+	<dict>
+		<key>nonPrivilegedScripts</key>
+		<dict>
+			<key>com.318.scripts</key>
+			<dict>
+				<key>headerTitle</key>
+				<string>Script Plugins Header</string>
+				<key>identifier</key>
+				<string>5A64BACB-E7D8-4C04-A2DD-1FE035066C0C</string>
+				<key>itemScripts</key>
+				<array>
+					<dict>
+						<key>isAlternate</key>
+						<false/>
+						<key>exitCodes</key>
+						<dict>
+							<key>0</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>The command output is used</string>
+								<key>scriptFailedTitle</key>
+								<string>This is not used</string>
+							</dict>
+							<key>192</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>The script exited 192</string>
+								<key>scriptFailedTitle</key>
+								<string>Script Exited Custom Status</string>
+							</dict>
+						</dict>
+						<key>scriptFailedTitle</key>
+						<string>script exited non-zero</string>
+						<key>scriptFailedDescription</key>
+						<string>example (exit 1&lt;) tool tip</string>
+						<key>scriptEndTitle</key>
+						<string>script exited zero</string>
+						<key>scriptEndDescription</key>
+						<string>example (exit 0) tool tip</string>
+						<key>scriptTitle</key>
+						<string>example tool tip</string>
+						<key>scriptDescription</key>
+						<string>example tool tip</string>
+						<key>scriptPath</key>
+						<string>menuThree</string>
+						<key>scriptExtention</key>
+						<string>sh</string>
+						<key>scriptIsInBundle</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>isAlternate</key>
+						<true/>
+						<key>exitCodes</key>
+						<dict>
+							<key>0</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>The command output is used</string>
+								<key>scriptFailedTitle</key>
+								<string>This is not used</string>
+							</dict>
+							<key>192</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>The script exited 192</string>
+								<key>scriptFailedTitle</key>
+								<string>Script Exited Custom Status</string>
+							</dict>
+						</dict>
+						<key>scriptFailedTitle</key>
+						<string>script exited non-zero</string>
+						<key>scriptFailedDescription</key>
+						<string>example (exit 1&lt;) tool tip</string>
+						<key>scriptEndTitle</key>
+						<string>script exited zero</string>
+						<key>scriptEndDescription</key>
+						<string>example (exit 0) tool tip</string>
+						<key>scriptTitle</key>
+						<string>example tool tip</string>
+						<key>scriptDescription</key>
+						<string>example tool tip</string>
+						<key>scriptPath</key>
+						<string>menuTwoAlt</string>
+						<key>scriptExtention</key>
+						<string>sh</string>
+						<key>scriptIsInBundle</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>isAlternate</key>
+						<false/>
+						<key>exitCodes</key>
+						<dict>
+							<key>0</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>The command output is used</string>
+								<key>scriptFailedTitle</key>
+								<string>This is not used</string>
+							</dict>
+							<key>192</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>The script exited 192</string>
+								<key>scriptFailedTitle</key>
+								<string>Script Exited Custom Status</string>
+							</dict>
+						</dict>
+						<key>scriptFailedTitle</key>
+						<string>script exited non-zero</string>
+						<key>scriptFailedDescription</key>
+						<string>example (exit 1&lt;) tool tip</string>
+						<key>scriptEndTitle</key>
+						<string>script exited zero</string>
+						<key>scriptEndDescription</key>
+						<string>example (exit 0) tool tip</string>
+						<key>scriptTitle</key>
+						<string>example tool tip</string>
+						<key>scriptDescription</key>
+						<string>example tool tip</string>
+						<key>scriptPath</key>
+						<string>menuTwo</string>
+						<key>scriptExtention</key>
+						<string>sh</string>
+						<key>scriptIsInBundle</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>isAlternate</key>
+						<true/>
+						<key>exitCodes</key>
+						<dict>
+							<key>0</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>The command output is used</string>
+								<key>scriptFailedTitle</key>
+								<string>This is not used</string>
+							</dict>
+							<key>192</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>The script exited 192</string>
+								<key>scriptFailedTitle</key>
+								<string>Script Exited Custom Status</string>
+							</dict>
+						</dict>
+						<key>scriptFailedTitle</key>
+						<string>script exited non-zero</string>
+						<key>scriptFailedDescription</key>
+						<string>example (exit 1&lt;) tool tip</string>
+						<key>scriptEndTitle</key>
+						<string>script exited zero</string>
+						<key>scriptEndDescription</key>
+						<string>example (exit 0) tool tip</string>
+						<key>scriptTitle</key>
+						<string>example tool tip</string>
+						<key>scriptDescription</key>
+						<string>example tool tip</string>
+						<key>scriptPath</key>
+						<string>menuOneAlt</string>
+						<key>scriptExtention</key>
+						<string>sh</string>
+						<key>scriptIsInBundle</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>isAlternate</key>
+						<false/>
+						<key>exitCodes</key>
+						<dict>
+							<key>0</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>The command output is used</string>
+								<key>scriptFailedTitle</key>
+								<string>This is not used</string>
+							</dict>
+							<key>192</key>
+							<dict>
+								<key>scriptFailedDescription</key>
+								<string>The script exited 192</string>
+								<key>scriptFailedTitle</key>
+								<string>Script Exited Custom Status</string>
+							</dict>
+						</dict>
+						<key>scriptFailedTitle</key>
+						<string>script exited non-zero</string>
+						<key>scriptFailedDescription</key>
+						<string>example (exit 1&lt;) tool tip</string>
+						<key>scriptEndTitle</key>
+						<string>script exited zero</string>
+						<key>scriptEndDescription</key>
+						<string>example (exit 0) tool tip</string>
+						<key>scriptTitle</key>
+						<string>example tool tip</string>
+						<key>scriptDescription</key>
+						<string>example tool tip</string>
+						<key>scriptPath</key>
+						<string>menuOne</string>
+						<key>scriptExtention</key>
+						<string>sh</string>
+						<key>scriptIsInBundle</key>
+						<true/>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
