@@ -1,0 +1,25 @@
+Created by Zack Smith @acidprime
+
+I have updated my sample slide project. This is a basic example of a (menu item).
+
+I built this with Xcode 3 as I'm not using 4 as my IDE yet.
+
+This shows you how to integrate shell and AppleScript code into a custom objC App.
+
+Basically there are 6 scripts in this xcode project.
+
+menuOne ~ menuThree are shell scripts that populate (grey) menu items
+
+Check out the settings.plist:scriptPlugins:nonPrivilegedScripts to see how the are loaded.
+
+Hopefully you will find the keys such as "isAlternate" self explanatory
+
+In the event of a non-zero exit, the scripts pull text from the plist 
+
+(as something went wrong) and we don't want to show it to our users.
+
+The header doubles as a Apple Script launcher menu item (be careful with multi-threading).
+
+Known Issue:
+Currently we don't handle AppleScript runtime issues, even simple ones like hitting cancel, so
+check the console log for errors if your debugging AppleScript.
